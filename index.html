@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+<!-- 	-------- TO-DO: ADD META TAG AND NAME HERE -------- -->
+	<meta name="author" content="Dysheed Goodson">
+	<title>Form Activity Solution File</title>
+<!-- 	-------- TO-DO: ADD LINK TO CSS HERE -------- -->
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<a href="#main-content" id="skipLink">Skip to main content</a>
+	<header>
+		<h1>Form Activity - GIT414</h1>
+		<nav>
+			<h2 class="sr-only">Site Navigation</h2>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Shop</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div id="particleBackground"></div>
+	<main id="main-content">
+		<article>
+			<h2>Coding Semantic and Accessible Forms!</h2>
+			<p>Today we'll be focusing on coding a form that is accessible and semantic, and we'll also briefly discuss skip links for your website. Forms can be a source of frustration for users, whether they specifically need help with accessing your website or if they just prefer that your forms be easy to use and submit. Follow along as we code this in class, and please ask questions as they arise. Let's make a form!</p>
+
+<!-- 	-------- TO-DO: ADD FORM CODE HERE DURING CLASS, FOLLOW ALONG TO COMPLETE -------- -->
+	<form>
+		<label for="fullname">Full Name</label>
+		<input type="text" id="fullname">
+		<label for="email">Email Address</label>
+		<input type="email" id="email">
+		<label for="phonenumber">Phone Number</label>
+		<input type="tel" id="phonenumber">
+		<fieldset>
+			<legend>Preferred Method of Contact</legend>
+			<input type="radio" name="preferredmethod" id="emailpreferred">
+			<label for="emailpreferred">Email</label>
+			<input type="radio" name="preferredmethod" id="phonepreferred">
+			<label for="phoneprefered">Phone</label>
+		</fieldset>
+		<label for="state">Select City</label>
+		<select name="state" id="state">
+			<option value="">Select State</option>
+			<option value="AL">AL</option>
+			<option value="AL">AK</option>
+			<option value="AL">AZ</option>
+			<option value="AL">AR</option>
+			<option value="AL">CA</option>
+			<option value="AL">CO</option>
+			<option value="AL">CT</option>
+			<option value="AL">DE</option>
+			<option value="AL">FL</option>
+			<option value="AL">GA</option>
+			<option value="AL">HI</option>
+			<option value="AL">ID</option>
+			<option value="AL">IL</option>
+			<option value="AL">IN</option>
+			<option value="AL">IA</option>
+			<option value="AL">KS</option>
+			<option value="AL">KY</option>
+			<option value="AL">LA</option>
+			<option value="AL">ME</option>
+			<option value="AL">MD</option>
+			<option value="AL">MA</option>
+			<option value="AL">MI</option>
+			<option value="AL">MN</option>
+			<option value="AL">MS</option>
+			<option value="AL">MO</option>
+			<option value="AL">MT</option>
+			<option value="AL">NE</option>
+			<option value="AL">NV</option>
+			<option value="AL">NH</option>
+			<option value="AL">NJ</option>
+			<option value="AL">NM</option>
+			<option value="AL">NY</option>
+			<option value="AL">NC</option>
+			<option value="AL">ND</option>
+			<option value="AL">OH</option>
+			<option value="AL">OK</option>
+			<option value="AL">OR</option>
+			<option value="AL">PA</option>
+			<option value="AL">RI</option>
+			<option value="AL">SC</option>
+			<option value="AL">SD</option>
+			<option value="AL">TN</option>
+			<option value="AL">TX</option>
+			<option value="AL">UT</option>
+			<option value="AL">VT</option>
+			<option value="AL">VA</option>
+			<option value="AL">WA</option>
+			<option value="AL">WV</option>
+			<option value="AL">WI</option>
+			<option value="AL">WY</option>
+			<option value="AL">DC</option>
+			<option value="AL">GU</option>
+			<option value="AL">MH</option>
+			<option value="AL">MP</option>
+			<option value="AL">PR</option>
+			<option value="AL">VI</option>
+		</select>
+	</form>
+		</article>
+	</main>
+	<footer>
+		<p>Copyright &copy; 2021 - GIT414</p>
+	</footer>
+</body>
+</html>
